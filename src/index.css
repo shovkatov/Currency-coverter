@@ -1,0 +1,71 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+      'Droid Sans', 'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+@import '~antd/dist/antd.css';
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ant-select-selector {
+   height: 48px !important;
+   font-size: 24px !important;
+   display: flex;
+   align-items: center;
+}
+.box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(to right, rgb(180, 180, 255), white);
+   padding: 82px 0;
+   min-height: 100vh;
+}
+.box_wrap {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: white;
+   justify-content: space-around;
+   height: 350px;
+   width: 33.3%;
+   border-radius: 15px;
+   padding: 20px 56px;
+   box-shadow: 0 0 10px black;
+}
+.news {
+   padding: 100px 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.news h3 {
+   font-size: 25px;
+   font-style: italic;
+   color: white;
+}
+.news h3 span {
+   display: inline-block;
+   width: 60px;
+   font-style: normal;
+}
+.news_wrap {
+   padding: 8px 15px;
+   background: blue;
+   width: 230px;
+   margin: 10px 0;
+}
+.history {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.history p:nth-child(2) {
+   margin-top: 10px;
+   font-size: 24px;
+}
